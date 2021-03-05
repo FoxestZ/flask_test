@@ -1,0 +1,42 @@
+
+/*.logo{*/
+/*    width: 35px;*/
+/*    !*height: 20px;*!*/
+
+/*}*/
+
+/*.body{*/
+/*    background-color: #f3f3f3;*/
+/*}*/
+
+/*.main{*/
+/*    background: #fff;*/
+/*    width: 730px;*/
+/*    margin: 0 auto;*/
+/*    overflow: hidden;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*.page-title{*/
+/*    text-align: center;*/
+/*}*/
+
+/*.logo{*/
+/*    width: 100px;*/
+/*}*/
+
+body{
+    background: #f3f3f3;
+}
+
+.main{
+    background: #fff;
+    width: 730px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.page-title{
+    text-align: center;
+}
