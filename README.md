@@ -33,10 +33,11 @@
 
 3. 根据config.py中的“ DATABASE = 'zlktqa_demo' ”创建数据库
 
-        CREATE DATABASE zlktqa_demo    
+        create DATABASE zlktqa_demo    
         
-4. 创建数据表映射 
+4. 删除migrations目录所以文件，然后控制台cd进入项目根目录，并创建数据表映射 
 
+        cd [项目根目录路径]
         python manage.py db init   
         python manage.py db migrate   
         python manage.py db upgrade
