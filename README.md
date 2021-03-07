@@ -41,7 +41,7 @@
         python manage.py db migrate   
         python manage.py db upgrade
 
-5. 根据requirements.txt 创建虚拟环境
+5. 根据requirements.txt 创建并进入虚拟环境
 
 6. 运行项目
 
