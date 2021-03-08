@@ -51,9 +51,14 @@
 
         cd [项目根目录路径]
         python manage.py db init   
-        python manage.py db migrate   
+        python manage.py db migrate
+        python manage.py db upgrade   
 
-    ######若migrations目录，删除migrations目录所以文件（2021-3-8更新，此步无需进行）
+    注意： 若
+    
+        python manage.py db init
+    
+    运行前，若项目中存在migrations目录，须删除migrations目录所有文件
     
 6. 运行项目
 
