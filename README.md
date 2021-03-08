@@ -19,6 +19,8 @@
     
     SQLAlchemy==1.3.15
     
+    pymysql
+    
     gunicorn
     
     gevent
