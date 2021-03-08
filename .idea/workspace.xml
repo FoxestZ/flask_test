@@ -4,7 +4,18 @@
     <list default="true" id="41f77b55-8f9b-47b1-b531-fa285dfaa63d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mange.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/alembic.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/script.py.mako" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/0baee2df6476_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/2b5dfdf5bb04_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/31d80567ea5f_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/33090f1738f4_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/versions/d38965f7a647_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zlktqa.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Flask server.Flask (zlktqa.py)">
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
     <configuration name="RandomMath" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,9 +180,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (zlktqa.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="course" />
-      <option name="target" value="$PROJECT_DIR$/zlktqa.py" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,7 +197,7 @@
     </configuration>
     <configuration name="course" type="Python.FlaskServer">
       <module name="course" />
-      <option name="target" value="$PROJECT_DIR$/zlktqa.py" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,7 +212,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Flask server.Flask (zlktqa.py)" />
+        <item itemvalue="Flask server.Flask (app.py)" />
         <item itemvalue="Python.RandomMath" />
         <item itemvalue="Python.models" />
         <item itemvalue="Python.config" />
@@ -230,7 +241,9 @@
       <workItem from="1614872451292" duration="9285000" />
       <workItem from="1614947517879" duration="1332000" />
       <workItem from="1615039499838" duration="7154000" />
-      <workItem from="1615117481443" duration="6064000" />
+      <workItem from="1615117481443" duration="7980000" />
+      <workItem from="1615132243524" duration="11000" />
+      <workItem from="1615183927556" duration="1600000" />
     </task>
     <servers />
   </component>
@@ -254,7 +267,7 @@
     <SUITE FILE_PATH="coverage/course$mange.coverage" NAME="mange Coverage Results" MODIFIED="1614062790108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/course$models.coverage" NAME="models Coverage Results" MODIFIED="1614341536273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/course$RandomMath.coverage" NAME="RandomMath Coverage Results" MODIFIED="1614837691685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/course$Flask__zlktqa_py_.coverage" NAME="Flask (zlktqa.py) Coverage Results" MODIFIED="1615120954606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/course$Flask__zlktqa_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1615185700904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/course$config.coverage" NAME="config Coverage Results" MODIFIED="1614065410593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

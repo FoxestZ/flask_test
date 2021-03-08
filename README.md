@@ -2,6 +2,7 @@
 ===========================
 
 ###########环境依赖
+
     Flask==1.1.2
     
     Flask_Script==2.0.6
@@ -35,14 +36,22 @@
 
         create DATABASE zlktqa_demo    
         
-4. 删除migrations目录所以文件，然后控制台cd进入项目根目录，并创建数据表映射 
+4. 根据requirements.txt 创建并进入虚拟环境
+
+    win10用户：
+    
+        mkvirtualenv 307demo
+        workon 307demo
+     
+     进入项目根目录
+     
+        pip install -r requirements.txt
+
+5. 删除migrations目录所以文件，然后控制台cd进入项目根目录，并创建数据表映射 
 
         cd [项目根目录路径]
         python manage.py db init   
         python manage.py db migrate   
-        python manage.py db upgrade
-
-5. 根据requirements.txt 创建并进入虚拟环境
 
 6. 运行项目
 
@@ -52,6 +61,19 @@
 ###########V1.0.0 版本内容更新（2021-3-7更新）
 1. 新更改	加入了Dockerfile、gunicorn.conf.py（暂时无法使用） 
 
+##
+###########V1.0.1 版本内容更新（2021-3-8更新）
+1. 新更改	针对复现中实验环境运行产生的BUG
+
+        “ModuleNotFoundError: No module named 'MySQLdb'” 
+   参考https://www.it610.com/article/1297037632215261184.htm 对exts.py
+   、requirements.txt 进行小幅度修改
+   
+2. 新更改	针对复现实验环境中,以命令行代码形式运行代码时的问题，将项目项目运
+   行入口文件名修改为
+   
+        app.py
+   
 ##
 ###########个人学习笔记
 
