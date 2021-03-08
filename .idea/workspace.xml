@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41f77b55-8f9b-47b1-b531-fa285dfaa63d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/alembic.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/script.py.mako" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/0baee2df6476_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/2b5dfdf5bb04_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/31d80567ea5f_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/33090f1738f4_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/versions/d38965f7a647_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zlktqa.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="41f77b55-8f9b-47b1-b531-fa285dfaa63d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +228,7 @@
       <workItem from="1615039499838" duration="7154000" />
       <workItem from="1615117481443" duration="7980000" />
       <workItem from="1615132243524" duration="11000" />
-      <workItem from="1615183927556" duration="1600000" />
+      <workItem from="1615183927556" duration="1903000" />
     </task>
     <servers />
   </component>

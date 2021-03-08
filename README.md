@@ -47,12 +47,14 @@
      
         pip install -r requirements.txt
 
-5. 删除migrations目录所以文件，然后控制台cd进入项目根目录，并创建数据表映射 
+5. 控制台cd进入项目根目录，并创建数据表及映射 
 
         cd [项目根目录路径]
         python manage.py db init   
         python manage.py db migrate   
 
+    ######若migrations目录，删除migrations目录所以文件（2021-3-8更新，此步无需进行）
+    
 6. 运行项目
 
         python.exe -m flask run
